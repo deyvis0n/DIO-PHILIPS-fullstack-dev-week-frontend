@@ -10,7 +10,11 @@ export class RegiaoService {
 
   listRegioes(): Regiao[] {
     return [
-      { id: 1, regiao: 'Norte', total_exames: 1500 }
+      { 
+        id: 1, 
+        regiaoAvaliada: 'Norte',
+        totalDeExames: 1500
+      }
     ];
   }
 }
