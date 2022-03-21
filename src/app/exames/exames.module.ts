@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card'
 import { MatSortModule } from '@angular/material/sort'
-
+import { HttpClientModule } from '@angular/common/http'
 
 import { ExamesRoutingModule } from './exames-routing.module';
 import { ExamesComponent } from './exames/exames.component';
@@ -16,7 +16,8 @@ import { ExamesComponent } from './exames/exames.component';
     CommonModule,
     ExamesRoutingModule,
     MatCardModule,
-    MatSortModule
+    MatSortModule,
+    HttpClientModule
   ]
 })
 export class ExamesModule { }
